@@ -8,8 +8,11 @@ This Python script is designed to help you manage and manipulate Icinga configur
 
 # Features
 Edit Configuration Items: Update or set specific attributes for objects of a given type in an Icinga configuration file.
+
 Remove Attributes: Remove specified attributes from objects of a particular type.
+
 Remove Entire Object Types: Recursively remove all objects of a specific type.
+
 Create New Objects: Add new objects with specified attributes to the configuration file.
 
 # Requirements

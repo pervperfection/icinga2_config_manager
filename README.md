@@ -35,17 +35,17 @@ Python 3.x
 # Examples
 Edit an object: Update the check_interval attribute for all Host objects in the configuration:
 ```
-  python script.py --file config.conf --type Host --set check_interval "90"
+  python /path/to/script/icinga_manager.py --file config.conf --type Host --set check_interval "90"
 ```
 Remove an attribute: Remove the address attribute from all Host objects:
 ```
-  python script.py --file config.conf --type Host --remove address
+  python /path/to/script/icinga_manager.py --file config.conf --type Host --remove address
 ```
 Remove an entire object type: Remove all Service objects from the configuration:
 ```
-  python script.py --file config.conf --type Service --remove-type
+  python /path/to/script/icinga_manager.py --file config.conf --type Service --remove-type
 ```
 Create a new object: Add a new Host object named new-host with specific attributes:
 ```
-  python script.py --file config.conf --type Host --name new-host --write-object --set address "192.168.1.10"
+  python /path/to/script/icinga_manager.py --file config.conf --type Host --name new-host --write-object --set address "192.168.1.10"
 ```

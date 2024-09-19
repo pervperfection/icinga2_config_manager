@@ -1,4 +1,7 @@
 # Icinga Configuration Editor
+
+**WIP**
+script is not ideal but gets simple job done via cli.
 Python script to manage icinga2 configuration
 
 This Python script is designed to help you manage and manipulate Icinga configuration files.
